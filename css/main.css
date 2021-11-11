@@ -94,13 +94,11 @@ nav ul li a:hover {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   letter-spacing: 4px;
-  /* min-height: 500px; */
 }
 
 #skillset {
   background-color: #00bdd6;
   color: white;
-  /*   margin-bottom: 50px; */
 }
 
 #card-container {
@@ -133,6 +131,28 @@ nav ul li a:hover {
 }
 
 #skills-container img {
+  border-radius: 1rem;
+  cursor: context-menu;
+  max-width: 7rem;
+  cursor: pointer;
+}
+
+/* Contacto */
+
+#contacto-container {
+  grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 1rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+#contacto-container div {
+  position: relative;
+}
+
+#contacto-container img {
   border-radius: 1rem;
   cursor: context-menu;
   max-width: 7rem;
