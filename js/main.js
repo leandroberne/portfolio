@@ -1,14 +1,6 @@
 const btnUp = document.querySelector('#btnUp');
 btnUp.addEventListener('click', topFunction);
 
-window.addEventListener('scroll', function () {
-  if (window.pageYOffset > 100) {
-    nav.classList.add('bg-dark', 'shadow');
-  } else {
-    nav.classList.remove('bg-dark', 'shadow');
-  }
-});
-
 window.onscroll = function () {
   scrollFunction();
 };
